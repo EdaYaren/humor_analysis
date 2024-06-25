@@ -13,6 +13,11 @@ Bu proje, büyük veri analitiği kullanarak mizah içeren metinlerin tespit edi
 ## Proje Hakkında
 Bu proje, Kaggle üzerinden temin edilen bir [veri seti](https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection/data) kullanılarak gerçekleştirilmiştir. Proje kapsamında, veri setine çeşitli ön işleme adımları uygulanmış, ardından veri madenciliği algoritmaları kullanılarak metinlerin mizah içerip içermediği tahmin edilmiştir. Proje raporu, veri seti ve KNIME iş akışı dosyaları bu repository'de yer almaktadır.
 
+## Knime İş Akışı
+Aşağıda, proje kapsamında kullanılan KNIME iş akışının bir görseli bulunmaktadır:
+
+![Knime Akis](https://github.com/EdaYaren/humor_analysis/blob/main/knime_akis.png)
+
 ## Veri Madenciliği ve Kullanılan Algoritmalar
 Veri madenciliği, büyük veri setlerinden anlamlı bilgiler çıkarmak için kullanılan yöntemler bütünüdür. Bu projede, metinlerin mizah içerip içermediğini tespit etmek amacıyla çeşitli makine öğrenimi algoritmaları kullanılmıştır. Kullanılan algoritmalar şunlardır:
 - K-NN (K-En Yakın Komşu)
@@ -24,8 +29,6 @@ Veri madenciliği, büyük veri setlerinden anlamlı bilgiler çıkarmak için k
 ## Modelleme ve Değerlendirme
 Proje kapsamında, veri setine çeşitli ön işleme adımları uygulanmış, ardından veri madenciliği algoritmaları kullanılarak modeller oluşturulmuş ve bu modellerin başarı oranları değerlendirilmiştir. Değerlendirme aşamasında doğruluk, hassasiyet ve F1 skoru gibi metrikler kullanılmıştır.
 
-## Knime İş Akışı
-Aşağıda, proje kapsamında kullanılan KNIME iş akışının bir görseli bulunmaktadır:
 
-![Knime İş Akışı]("knime_akis.png")
+
 
