@@ -24,4 +24,8 @@ Veri madenciliği, büyük veri setlerinden anlamlı bilgiler çıkarmak için k
 ## Modelleme ve Değerlendirme
 Proje kapsamında, veri setine çeşitli ön işleme adımları uygulanmış, ardından veri madenciliği algoritmaları kullanılarak modeller oluşturulmuş ve bu modellerin başarı oranları değerlendirilmiştir. Değerlendirme aşamasında doğruluk, hassasiyet ve F1 skoru gibi metrikler kullanılmıştır.
 
+## Knime İş Akışı
+Aşağıda, proje kapsamında kullanılan KNIME iş akışının bir görseli bulunmaktadır:
+
+![Knime İş Akışı]("knime_akis.png")
 
